@@ -24,12 +24,18 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository + Prisma ORM.
 
-## Installation
+## Usage
 
+1. Create new repository with this template.
+2. Setup remote to fetch from
 ```bash
-$ npm install
+$ git remote add template https://github.com/dung28-td/nesma.git
+```
+3. Pull specific branch to use that feature.
+```bash
+$ git pull template <branch>(graphql|swagger)
 ```
 
 ## Running the app
